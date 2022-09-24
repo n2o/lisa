@@ -1,0 +1,4 @@
+{:lint-as {promesa.core/let clojure.core/let
+           promesa.core/-> clojure.core/->}
+ :linters {:single-key-in {:level :warning}
+           :unsorted-required-namespaces {:level :warning}}}
